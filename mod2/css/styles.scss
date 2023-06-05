@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+section {
+    display: inline-block;
+    background-color: gray;
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px;
+   
+}
+
+.pad {
+    margin-left: 4%;
+}
+div {
+    padding: 0 2%;
+}
+
+h2 {
+    background-color: aqua;
+    width:40%;
+    font-size: 20px;
+    margin-left: 66%;
+    text-align: center;
+    padding: 5px 10px;
+
+}
+#chicken{
+    background-color: #D59898 ;
+}
+#beef{
+    background-color: #C14543 ;
+}
+#chicken{
+    background-color: #E5D198 ;
+}
+p{
+    margin-top: 10px;
+}
+.item {
+    padding: 0;
+}
