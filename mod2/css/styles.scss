@@ -16,11 +16,11 @@ h1 {
 
 section {
     background-color: gray;
-    padding: 10px;
+    padding: 0 10px;
     width: 31%;
     display: inline-block;
     margin-left: 20px;
-    margin-top: 20px;
+    
 }
 div {
     max-width: 90%;
@@ -28,5 +28,15 @@ div {
 }
 h2 {
     border: 2px solid black;
-    
+    text-align: right;
+    padding: 5px 10px;
+    margin-right: -10px;
+    width: 40%; 
+    font-size: 1rem;
+    float: right;
+}
+p {
+    clear: right;
+    margin-top: 40px;
+
 }

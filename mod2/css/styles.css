@@ -11,44 +11,29 @@ h1 {
 }
 
 section {
-  position: relative;
-  display: inline-block;
   background-color: gray;
-  margin: 0 auto;
-  width: 30%;
-  padding: 20px;
-}
-
-.pad {
-  margin-left: 4%;
+  padding: 0 10px;
+  width: 31%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 div {
-  padding: 0 2%;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 h2 {
-  position: absolute;
-  float: right;
-  background-color: aqua;
-  width: 40%;
-  font-size: 20px;
-  text-align: center;
+  border: 2px solid black;
+  text-align: right;
   padding: 5px 10px;
-}
-
-#chicken {
-  background-color: #D59898;
-}
-
-#beef {
-  background-color: #C14543;
-}
-
-#chicken {
-  background-color: #E5D198;
+  margin-right: -10px;
+  width: 40%;
+  font-size: 1rem;
+  float: right;
 }
 
 p {
-  margin-top: 10px;
+  clear: right;
+  margin-top: 40px;
 }/*# sourceMappingURL=styles.css.map */
