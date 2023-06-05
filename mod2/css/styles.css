@@ -19,21 +19,68 @@ section {
 }
 
 div {
-  max-width: 90%;
   margin: 0 auto;
 }
 
 h2 {
   border: 2px solid black;
-  text-align: right;
+  text-align: center;
   padding: 5px 10px;
   margin-right: -10px;
   width: 40%;
   font-size: 1rem;
   float: right;
+  font-weight: bold;
 }
 
 p {
   clear: right;
-  margin-top: 40px;
+  padding: 20px 10px 20px 10px;
+}
+
+#chicken {
+  background-color: #D59898;
+}
+
+#beef {
+  background-color: #C14543;
+}
+
+#sushi {
+  background-color: #E5D198;
+}
+
+/*For Deskstop View*/
+@media (min-width: 992px) {
+  div {
+    max-width: 90%;
+  }
+  section {
+    width: 30%;
+  }
+}
+/*For Tablet View*/
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    width: 45%;
+    margin-top: 25px;
+  }
+  .three {
+    display: block;
+    width: 93%;
+  }
+}
+/*For mobile View*/
+@media (max-width: 767px) {
+  div {
+    margin: 0 auto;
+  }
+  section {
+    display: block;
+    width: 90%;
+    margin: 25px;
+  }
+  p {
+    padding-top: 5px;
+  }
 }/*# sourceMappingURL=styles.css.map */
